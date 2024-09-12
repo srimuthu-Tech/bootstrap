@@ -1,0 +1,7 @@
+.bg-custom {
+    background: url('C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\bg.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white; /* Optional: If you need to adjust the text color */
+    padding: 20px;
+    border-radius: 5px;
+}

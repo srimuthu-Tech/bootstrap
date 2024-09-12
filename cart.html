@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .google-icon {
+            width: 20px;
+            /* Adjust this value as needed */
+            margin-right: 8px;
+        }
+
+        body {
+            overflow-x: hidden;
+            /* Prevent horizontal scrolling */
+        }
+        .social-icon {
+            margin: 0 10px;
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account.html">sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <h1 class="text-center">Shopping Cart</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Cart Item 1 -->
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://via.placeholder.com/150" class="card-img" alt="Product Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 1</h5>
+                                <p class="card-text">This is a short description of product 1.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-muted">$10.00</span>
+                                    <input type="number" class="form-control w-25" value="1">
+                                    <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cart Item 2 -->
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://via.placeholder.com/150" class="card-img" alt="Product Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 2</h5>
+                                <p class="card-text">This is a short description of product 2.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-muted">$15.00</span>
+                                    <input type="number" class="form-control w-25" value="2">
+                                    <button type="button" class="btn btn-danger btn-sm">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cart Summary</h5>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Subtotal</span>
+                                <strong>$40.00</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Shipping</span>
+                                <strong>$5.00</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total</span>
+                                <strong>$45.00</strong>
+                            </li>
+                        </ul>
+                        <a href="checkout.html" class="btn btn-primary btn-block">Proceed to Checkout</a>
+                        <a href="products.html" class="btn btn-secondary btn-block">Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-start">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="@ENTER YOUR EMAIL" aria-label="SUBSCRIBE">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-muted">
+                        <h5>ABOUT</h5>
+                        <ul class="list-unstyled">
+                            <li class="about-list-item"><a href="#" class="text-white">Contact us</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">About us</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">Customer service</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">Career</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-muted">
+                        <h5 class="word-spacing">VISIT US</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <p class="text-white word-spacing">Phone: +000000000</p>
+                                <p class="text-white word-spacing">Email: ecommerceplatformQ@gmail.com</p>
+                                <p class="text-white word-spacing">Address: 100 street, Chennai</p>
+                                <p class="text-white word-spacing">Phone: +000000000</p>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="mailto:ecommerceplatformQ@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 E-commerce Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

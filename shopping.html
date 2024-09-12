@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <style>
+                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* Example of a Google Font */
+
+        .carousel-item img {
+            max-height: 600px; /* Increased the value to change the height */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+        .carousel {
+            max-width: 1320px; /* Increased the value to change the width */
+            margin: auto; /* Center the carousel horizontally */
+        }
+        .carousel-heading {
+            
+            text-align: center;
+            margin: 10px 0; /* Space between heading and carousel */
+        }
+       
+        .google-icon {
+            width: 20px;
+            /* Adjust this value as needed */
+            margin-right: 8px;
+        }
+
+        body {
+            overflow-x: hidden;
+            /* Prevent horizontal scrolling */
+        }
+        .social-icon {
+            margin: 0 10px;
+            color: white;
+        }
+
+        
+    </style>
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container my-4 carousel-heading">
+        <h1>Shoes</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\shoe1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\shoe2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\Srimu\OneDrive\Desktop\Developer\ecommerce\shoe3jpg." alt="Third slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="card" style="width: 18rem; margin: 30px;">
+                <img src="C:/Users/Srimu/OneDrive/Desktop/Developer/ecommerce/shoe1.jpg" class="card-img-top" alt="first card">
+                <div class="card-body">
+                    <h5 class="card-title">MENS SNEAKERS</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.pexels.com/photo/two-unpaired-black-and-gray-adidas-sply-350-v2-1032110/" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 30px;">
+                <img src="C:/Users/Srimu/OneDrive/Desktop/Developer/ecommerce/shoe2.jpg" class="card-img-top" alt="second card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; margin: 30px;">
+                <img src="C:/Users/Srimu/OneDrive/Desktop/Developer/ecommerce/shoe3.jpg" class="card-img-top" alt="third card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-start">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="@ENTER YOUR EMAIL" aria-label="SUBSCRIBE">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-muted">
+                        <h5>ABOUT</h5>
+                        <ul class="list-unstyled">
+                            <li class="about-list-item"><a href="#" class="text-white">Contact us</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">About us</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">Customer service</a></li>
+                            <li class="about-list-item"><a href="#" class="text-white">Career</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-muted">
+                        <h5 class="word-spacing">VISIT US</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <p class="text-white word-spacing">Phone: +000000000</p>
+                                <p class="text-white word-spacing">Email: ecommerceplatformQ@gmail.com</p>
+                                <p class="text-white word-spacing">Address: 100 street, Chennai</p>
+                                <p class="text-white word-spacing">Phone: +000000000</p>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-icon"><i class="fab fa-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="mailto:ecommerceplatformQ@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 E-commerce Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
